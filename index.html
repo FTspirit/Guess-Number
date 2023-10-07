@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Game đếm số!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h1>Game đếm số!</h1>
+    <p class="between">1 Số giữa 1 và 20</p>
+    <button class="btn again">Thử lại</button>
+    <div class="number">?</div>
+</header>
+<main>
+    <section class="left">
+        <input type="number" class="guess" />
+        <button class="btn check">Kiểm tra!</button>
+    </section>
+    <section class="right">
+        <p class="message">Đang đoán số...</p>
+        <p class="label-score">💯 Số điểm: <span class="score">20</span></p>
+        <p class="label-highscore">
+            🥇 Điểm cao: <span class="highscore">0</span>
+        </p>
+    </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
